@@ -2,9 +2,9 @@ import re
 
 list = ["guru99 get", "guru99 give", "guru Selenium"]
 for element in list:
-z = re.match("(g\w+)\W(g\w+)", element)
-if z:
-    print((z.groups()))
+    z = re.match("(g\w+)\W(g\w+)", element)
+    if z:
+        print((z.groups()))
     
 patterns = ['software testing', 'guru99']
 text = 'software testing is fun?'
