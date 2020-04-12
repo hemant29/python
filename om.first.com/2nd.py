@@ -1,11 +1,11 @@
 def main():
-     f= open("hemant.txt","w+")
+     f= open("D:\\hemant.txt","w+")
      #f=open("hemant.txt","a+")
      for i in range(1, 10):
          f.write("This is line %d\r\n" % (i+1))
      f.close()   
      #Open the file back and read the contents
-     f=open("hemant.txt", "r")
+     f=open("D:\\hemant.txt", "r")
      if f.mode == 'r': 
         contents =f.read()
         print(contents)
